@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shoe Shop</title>
+	<style>
+		h1 {
+			text-align: center;
+			font-size: 40px;
+			font-family: Arial, sans-serif;
+		}
+
+		ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+
+		li {
+			display: inline-block;
+			margin: 10px;
+			padding: 10px;
+			background-color: lightgray;
+			border-radius: 5px;
+			box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+		}
+
+		img {
+			display: block;
+			margin: auto;
+			width: 150px;
+			height: 150px;
+			object-fit: cover;
+			border-radius: 5px;
+			box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+		}
+	</style>
+</head>
+<body>
+	<h1>Shoe Shop</h1>
+	<ul>
+		<li>
+			<img src="https://source.unsplash.com/random/150x150/?shoe">
+			<p>Nike Air Max</p>
+			<p>$150</p>
+		</li>
+		<li>
+			<img src="https://source.unsplash.com/random/150x150/?shoe">
+			<p>Adidas Superstar</p>
+			<p>$120</p>
+		</li>
+		<li>
+			<img src="https://source.unsplash.com/random/150x150/?shoe">
+			<p>Vans Old Skool</p>
+			<p>$80</p>
+		</li>
+	</ul>
+</body>
+</html>
